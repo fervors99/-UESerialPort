@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "Version": 3,
+  "VersionName": "1.3",
+  "FriendlyName": "UE Serial Port",
+  "Description": "Serial port Blueprint plugin with auto-reconnect, health monitoring, and poison recovery using Rust backend for Unreal Engine 5.7.",
+  "Category": "Utilities",
+  "CreatedBy": "Carols Pan",
+  "CreatedByURL": "https://github.com/fervors99",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "https://github.com/fervors99/MyPlugin/wiki ",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "UESerialPort",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
